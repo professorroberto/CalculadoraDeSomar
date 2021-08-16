@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtSomar2 = new System.Windows.Forms.TextBox();
             this.btnSOMAR = new System.Windows.Forms.Button();
-            this.lblRESULTADO = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -78,22 +78,22 @@
             this.btnSOMAR.Text = "+";
             this.btnSOMAR.UseVisualStyleBackColor = true;
             // 
-            // lblRESULTADO
+            // lblResultado
             // 
-            this.lblRESULTADO.AutoSize = true;
-            this.lblRESULTADO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRESULTADO.Location = new System.Drawing.Point(29, 100);
-            this.lblRESULTADO.Name = "lblRESULTADO";
-            this.lblRESULTADO.Size = new System.Drawing.Size(124, 24);
-            this.lblRESULTADO.TabIndex = 5;
-            this.lblRESULTADO.Text = "RESULTADO";
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(29, 100);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(124, 24);
+            this.lblResultado.TabIndex = 5;
+            this.lblResultado.Text = "RESULTADO";
             // 
             // frmAdicao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(185, 362);
-            this.Controls.Add(this.lblRESULTADO);
+            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnSOMAR);
             this.Controls.Add(this.txtSomar2);
             this.Controls.Add(this.label2);
@@ -101,6 +101,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmAdicao";
             this.Text = "Adição";
+            this.Load += new System.EventHandler(this.frmAdicao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,7 +114,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSomar2;
         private System.Windows.Forms.Button btnSOMAR;
-        private System.Windows.Forms.Label lblRESULTADO;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
 
