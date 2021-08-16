@@ -15,5 +15,17 @@ namespace CalculadoraDeSomar
         {
             InitializeComponent();
         }
+
+        private void btnSomar_Click(object sender, EventArgs e)
+        {
+           
+
+            lblRes.Text = Convert.ToString(int.Parse(txtNum1.Text) + int.Parse(txtNum2.Text));
+        }
+
+        private void frmAdicao_Load(object sender, EventArgs e)
+        {
+            lblRes.Text = "";
+        }
     }
 }
