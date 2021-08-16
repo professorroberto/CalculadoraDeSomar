@@ -16,7 +16,7 @@ namespace CalculadoraDeSomar
             InitializeComponent();
         }
 
-        private void frmAdicao_Load(object sender, EventArgs e)
+        private void btnSOMAR_Click(object sender, EventArgs e)
         {
             if (txtSomar1.Text == "" || txtSomar2.Text == "")
                 MessageBox.Show("Favor, preencher todos os campos!");
@@ -28,7 +28,6 @@ namespace CalculadoraDeSomar
                 int result = N1 + N2;
                 lblResultado.Text = result.ToString();
             }
-
         }
     }
 }

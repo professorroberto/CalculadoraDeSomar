@@ -77,6 +77,7 @@
             this.btnSOMAR.TabIndex = 4;
             this.btnSOMAR.Text = "+";
             this.btnSOMAR.UseVisualStyleBackColor = true;
+            this.btnSOMAR.Click += new System.EventHandler(this.btnSOMAR_Click);
             // 
             // lblResultado
             // 
@@ -101,7 +102,6 @@
             this.Controls.Add(this.label1);
             this.Name = "frmAdicao";
             this.Text = "Adição";
-            this.Load += new System.EventHandler(this.frmAdicao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
